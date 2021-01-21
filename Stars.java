@@ -6,7 +6,7 @@ public class Stars {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//º°Âï±â https://www.acmicpc.net/problem/2442
+		//º°Âï±â¹®Á¦ https://www.acmicpc.net/problem/2442
 		Scanner s= new Scanner(System.in);
 		int n=s.nextInt();
 		
@@ -17,9 +17,5 @@ public class Stars {
 				System.out.print("*");
 			System.out.println();
 		}
-		
-		
-		
 	}
-
 }
