@@ -5,10 +5,11 @@ class Solution {
 		int[][] board={{0,0,0,0,0},{0,0,1,0,3},{0,2,5,0,1},{4,2,4,4,2},{3,5,1,3,1}};
 		int[] moves= {1,5};
 		System.out.println(solution(board,moves));
+		
 		String s="asd asdfg asdf";
 		String answer = "";
 		String[] str= s.split(" ");
-
+		
 		for(int i=0;i<str.length;i++){
 			for(int j=0;j<str[i].length();j++){
 				if(j%2==0){
